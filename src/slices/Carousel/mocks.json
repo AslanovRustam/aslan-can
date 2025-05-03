@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"headinh": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Outer"
+						}
+					}
+				]
+			},
+			"price_copy": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Et cupidatat consequat nulla. Commodo consequat elit ut reprehenderit labore sit veniam aliquip nisi voluptate nisi eiusmod."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
