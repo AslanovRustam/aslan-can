@@ -12,9 +12,7 @@ import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-type Props = {};
-
-export default function Scene({}: Props) {
+export default function Scene() {
   const canRef = useRef<Group>(null);
   const isDesktop = useMediaQuery("(min-width:768px)", true);
 

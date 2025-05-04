@@ -9,9 +9,7 @@ const Loader = dynamic(
   { ssr: false },
 );
 
-type Props = {};
-
-export default function ViewCanvas({}: Props) {
+export default function ViewCanvas() {
   return (
     <>
       <Canvas
