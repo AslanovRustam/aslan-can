@@ -27,7 +27,7 @@ const AlternatingText: FC<AlternatingTextProps> = ({ slice }) => {
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="alternating-text-container relative bg-yellow-300 text-sky-950"
+      className="alternating-text-container relative bg-[#ffdf20] text-sky-950"
     >
       <div>
         <div className="relative z-[100] grid">
@@ -43,7 +43,7 @@ const AlternatingText: FC<AlternatingTextProps> = ({ slice }) => {
               <div
                 className={clsx(
                   index % 2 === 0 ? "col-start-1" : "md:col-start-2",
-                  "z-40 rounded-lg p-4 backdrop-blur-lg max-md:mr-2 max-md:ml-2 max-md:bg-white/20",
+                  "rounded-lg p-4 backdrop-blur-lg max-md:mr-2 max-md:ml-2 max-md:bg-white/20",
                 )}
               >
                 <h2 className="text-6xl font-bold text-balance">
