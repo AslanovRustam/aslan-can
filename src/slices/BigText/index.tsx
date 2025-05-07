@@ -15,7 +15,7 @@ const BigText: FC<BigTextProps> = ({ slice }) => {
     <section
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="min-h-screen w-screen overflow-hidden bg-[#fe6334] text-[#fee832]"
+      className="w-screen overflow-hidden bg-[#fe6334] text-[#fee832] md:min-h-screen"
     >
       <h2 className="grid w-full gap-[3vw] py-10 text-center leading-[0.7] font-black uppercase">
         <div className="text-[34vw]">Soda</div>
